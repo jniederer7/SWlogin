@@ -3,6 +3,8 @@ version 0.1.0
 
 ## MERN stack SPA using WebSockets to display live trading stocks data
 
+## Stock API provided by https://api.iextrading.com
+
 ## Dependencies
 
 - axios [Make XMLHttpRequests from the browser.]
