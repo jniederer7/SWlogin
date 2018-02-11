@@ -19,11 +19,11 @@ version 0.1.0
 - chartjs-plugin-annotation [This plugin draws lines and boxes on the chart area.]
 - react-chartjs-2 [React wrapper for Chart.js 2]
 
-### DB
+## DB
 
 - mongodb
 
-### Auth
+## Auth
 
 - Firebase [Provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app.]
 
