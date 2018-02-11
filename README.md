@@ -13,6 +13,12 @@ version 0.1.0
 - express [Fast, unopinionated, minimalist web framework for node.]
 - express-session [Simple session middleware for Express.]
 
+## Graphics & Charts
+
+- chart.js [Simple HTML5 Charts using the canvas element] http://www.chartjs.org/samples/latest/
+- chartjs-plugin-annotation [This plugin draws lines and boxes on the chart area.]
+- react-chartjs-2 [React wrapper for Chart.js 2]
+
 ### DB
 
 - mongodb
@@ -29,10 +35,24 @@ version 0.1.0
 
 - socket.io [Socket.IO enables real-time bidirectional event-based communication.]
 
+## React 
+
+- redux [an open-source JavaScript library designed for managing application state.]
+
+##  Testing
+
+- jest [Delightful JavaScript Testing]
+- babel-jest [it will automatically compile JavaScript code using babel.]
+
+## Time handling
+
+- moment.js [A lightweight library for parsing, validating, manipulating, and formatting dates.]
+
 ### Dev Dependencies
 
 - babel-register [One of the ways you can use Babel is through the require hook. The require hook will bind itself to node's require and automatically compile files on the fly. ]
 - concurrently [Run multiple commands concurrently. Like npm run watch-js & npm run watch-less but better.]
 - dotenv [Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.] Read morere here: https://12factor.net/
+- redux-devtools [a development time package that provides power-ups for your Redux development workflow.]
 
 ![12Factors](https://github.com/julianhasse/SWlogin/blob/master/public/images/12Factors.png)
