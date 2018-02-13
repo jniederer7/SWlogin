@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { login, resetPassword } from '../helpers/auth'
+import './Login.css'
 
 function setErrorMsg(error) {
   return {
@@ -27,12 +28,12 @@ export default class Login extends Component {
         <h1> Login </h1>
         <form onSubmit={this.handleSubmit}>
           <div className="form-group">
-            <label>Email</label>
-            <input className="form-control" ref={(email) => this.email = email} placeholder="Email"/>
+            <input id="dynamic-label-input" className="form-control" ref={(email) => this.email = email} placeholder="Email"/>
+            <label htmlFor="dynamic-label-input" >Email</label>
           </div>
           <div className="form-group">
-            <label>Password</label>
-            <input type="password" className="form-control" placeholder="Password" ref={(pw) => this.pw = pw} />
+            <input id="dynamic-label-input" type="password" className="form-control" placeholder="Password" ref={(pw) => this.pw = pw} />
+            <label htmlFor="dynamic-label-input" >Password</label>
           </div>
           {
             this.state.loginMessage &&

@@ -1,0 +1,26 @@
+body{
+    /* background-image: url("./sw_background.png");
+    background-repeat: no-repeat; */
+    background-color: #3C3D41;
+}
+.navbar{
+    background-color: #511aa5;
+    background-image: url("./header.png");
+    color:#fafafa;
+
+}
+.navbar-default .navbar-brand{
+    color:#fafafa;
+    text-shadow: 1px 1px #b366ff
+}
+.navbar-default .navbar-nav  li  a {
+    color:#fafafa;
+}
+
+.navbar-default .navbar-brand:active{
+    color:#fafafa;
+    text-shadow: 1px 1px #b366ff
+}
+.navbar-default .navbar-nav  li  a:active {
+    color:#b366ff;
+}
